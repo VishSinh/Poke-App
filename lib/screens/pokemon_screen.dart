@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:poke_app/screens/home_screen.dart';
 import 'package:poke_app/utility/reusable_card.dart';
 
 import 'package:poke_app/main.dart';
@@ -183,7 +184,7 @@ class _PokeScreenState extends State<PokeScreen> {
               children: [
                 ReusableButton(
                   buttonText: 'Home',
-                  Screen: PokeApp(),
+                  Screen: HomeScreen(),
                 ),
                 ReusableButton(
                   buttonText: 'Generate Another',
